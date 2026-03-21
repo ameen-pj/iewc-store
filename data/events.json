@@ -1,5 +1,65 @@
 [
   {
+    "id": "q4PrDY",
+    "name": "Event 1",
+    "isNameModifiedByUser": false,
+    "workspaceId": "mOJ247",
+    "organizationId": "mVD0RJ",
+    "status": "PUBLISHED",
+    "hasDraftBlocks": false,
+    "numberOfSubmissions": 0,
+    "createdAt": "2026-03-21T08:57:53.000Z",
+    "updatedAt": "2026-03-21T08:58:56.000Z",
+    "index": 0,
+    "isClosed": false,
+    "settings": null,
+    "blocks": [
+      {
+        "uuid": "cad711bb-23f1-4948-9ce5-bbe2b1e17220",
+        "type": "FORM_TITLE",
+        "groupUuid": "39aa92d0-dbb6-48a6-87f1-a2bca039e3a1",
+        "groupType": "TEXT",
+        "payload": {
+          "cover": "https://images.unsplash.com/photo-1773332598501-f8612761781a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNTE3NDZ8MXwxfGFsbHw4fHx8fHx8MXx8MTc3NDA4MjI5OHw&ixlib=rb-4.1.0&q=80&w=1080",
+          "logo": "https://storage.tally.so/d74d0b8e-a29d-4431-b0ae-dddab4b24204/iedc_logo.png",
+          "coverSettings": {
+            "objectPositionYPercent": 50.57411273486433
+          },
+          "safeHTMLSchema": [
+            [
+              "Event 1"
+            ]
+          ],
+          "title": "Event 1"
+        }
+      },
+      {
+        "uuid": "b26b4306-149a-4bed-921c-ad0ef9af458a",
+        "type": "TITLE",
+        "groupUuid": "fd806117-e070-4839-89d4-ce123d012758",
+        "groupType": "QUESTION",
+        "payload": {
+          "safeHTMLSchema": [
+            [
+              "Phone Number"
+            ]
+          ]
+        }
+      },
+      {
+        "uuid": "ef25ffdd-cefe-47a9-b4dd-fdabe7ed53b8",
+        "type": "INPUT_PHONE_NUMBER",
+        "groupUuid": "39c4208f-bbee-48dd-9407-73c5539df174",
+        "groupType": "INPUT_PHONE_NUMBER",
+        "payload": {
+          "isRequired": true,
+          "internationalFormat": true,
+          "placeholder": ""
+        }
+      }
+    ]
+  },
+  {
     "id": "Ek0GqN",
     "name": "IEDC Hackathon Registration🚀",
     "isNameModifiedByUser": false,
@@ -11,10 +71,10 @@
     "createdAt": "2026-03-20T06:26:22.000Z",
     "updatedAt": "2026-03-21T08:34:33.000Z",
     "index": 0,
-    "isClosed": false,
+    "isClosed": true,
     "settings": {
       "language": "en",
-      "isClosed": false,
+      "isClosed": true,
       "closeMessageTitle": null,
       "closeMessageDescription": null,
       "closeTimezone": "Asia/Kolkata",
