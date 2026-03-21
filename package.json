@@ -1,0 +1,19 @@
+{
+  "name": "iewc-store",
+  "version": "1.0.0",
+  "description": "IEWC-Store",
+  "homepage": "https://github.com/ameen-pj/iewc-store#readme",
+  "bugs": {
+    "url": "https://github.com/ameen-pj/iewc-store/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameen-pj/iewc-store.git"
+  },
+  "license": "ISC",
+  "author": "Ameen PJ",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  }
+}
