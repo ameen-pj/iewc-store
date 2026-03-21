@@ -1,15 +1,15 @@
 [
   {
     "id": "q4PrDY",
-    "name": "Event 1",
+    "name": "Event 1 (Edited)",
     "isNameModifiedByUser": false,
     "workspaceId": "mOJ247",
     "organizationId": "mVD0RJ",
     "status": "PUBLISHED",
     "hasDraftBlocks": false,
-    "numberOfSubmissions": 0,
+    "numberOfSubmissions": 1,
     "createdAt": "2026-03-21T08:57:53.000Z",
-    "updatedAt": "2026-03-21T08:58:56.000Z",
+    "updatedAt": "2026-03-21T09:25:55.000Z",
     "index": 0,
     "isClosed": false,
     "settings": null,
@@ -20,17 +20,13 @@
         "groupUuid": "39aa92d0-dbb6-48a6-87f1-a2bca039e3a1",
         "groupType": "TEXT",
         "payload": {
-          "cover": "https://images.unsplash.com/photo-1773332598501-f8612761781a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNTE3NDZ8MXwxfGFsbHw4fHx8fHx8MXx8MTc3NDA4MjI5OHw&ixlib=rb-4.1.0&q=80&w=1080",
           "logo": "https://storage.tally.so/d74d0b8e-a29d-4431-b0ae-dddab4b24204/iedc_logo.png",
-          "coverSettings": {
-            "objectPositionYPercent": 50.57411273486433
-          },
           "safeHTMLSchema": [
             [
-              "Event 1"
+              "Event 1 (Edited)"
             ]
           ],
-          "title": "Event 1"
+          "title": "Event 1 (Edited)"
         }
       },
       {
