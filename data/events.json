@@ -1,7 +1,7 @@
 [
   {
     "id": "q4PrDY",
-    "name": "Event 1 (Edited)",
+    "name": "Event 1 (Edited ##)",
     "isNameModifiedByUser": false,
     "workspaceId": "mOJ247",
     "organizationId": "mVD0RJ",
@@ -9,7 +9,7 @@
     "hasDraftBlocks": false,
     "numberOfSubmissions": 1,
     "createdAt": "2026-03-21T08:57:53.000Z",
-    "updatedAt": "2026-03-21T09:25:55.000Z",
+    "updatedAt": "2026-03-21T09:28:55.000Z",
     "index": 0,
     "isClosed": false,
     "settings": null,
@@ -23,10 +23,10 @@
           "logo": "https://storage.tally.so/d74d0b8e-a29d-4431-b0ae-dddab4b24204/iedc_logo.png",
           "safeHTMLSchema": [
             [
-              "Event 1 (Edited)"
+              "Event 1 (Edited ##)"
             ]
           ],
-          "title": "Event 1 (Edited)"
+          "title": "Event 1 (Edited ##)"
         }
       },
       {
