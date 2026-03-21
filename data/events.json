@@ -1,59 +1,5 @@
 [
   {
-    "id": "68xYOA",
-    "name": "Event 1",
-    "isNameModifiedByUser": false,
-    "workspaceId": "mOJ247",
-    "organizationId": "mVD0RJ",
-    "status": "PUBLISHED",
-    "hasDraftBlocks": true,
-    "numberOfSubmissions": 1,
-    "createdAt": "2026-03-20T08:03:58.000Z",
-    "updatedAt": "2026-03-21T04:56:29.000Z",
-    "index": 0,
-    "isClosed": false,
-    "settings": null,
-    "blocks": [
-      {
-        "uuid": "a2b488e4-6f08-4de0-bb94-fc7edbb5397b",
-        "type": "FORM_TITLE",
-        "groupUuid": "20d4ebf2-66f2-43b6-80b5-22b35b02f201",
-        "groupType": "TEXT",
-        "payload": {
-          "safeHTMLSchema": [
-            [
-              "Event 1"
-            ]
-          ],
-          "title": "Event 1"
-        }
-      },
-      {
-        "uuid": "80ec2209-d03f-4503-86eb-a9c8a3b90d8f",
-        "type": "TITLE",
-        "groupUuid": "3639c85b-a484-42ea-96e8-02c0d21f85b7",
-        "groupType": "QUESTION",
-        "payload": {
-          "safeHTMLSchema": [
-            [
-              "Name"
-            ]
-          ]
-        }
-      },
-      {
-        "uuid": "ac35a807-05ae-4ea4-91d1-47ad1fee48fb",
-        "type": "INPUT_TEXT",
-        "groupUuid": "818dccf9-4a5f-4be6-8e24-a7f8a9557c56",
-        "groupType": "INPUT_TEXT",
-        "payload": {
-          "isRequired": true,
-          "placeholder": ""
-        }
-      }
-    ]
-  },
-  {
     "id": "Ek0GqN",
     "name": "IEDC Hackathon Registration🚀",
     "isNameModifiedByUser": false,
