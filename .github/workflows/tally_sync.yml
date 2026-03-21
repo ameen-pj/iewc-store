@@ -1,9 +1,13 @@
-name: Tally.so Event Sync Service
+name: Tally Event Sync Service
 
 on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
+
+# Setting this at the top-level forces the Runner to use Node 24 for all JS actions
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build-and-run:
@@ -19,7 +23,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '24'
-          cache: 'npm' # Optional: speeds up future runs
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm install
