@@ -5,13 +5,15 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
-# Setting this at the top-level forces the Runner to use Node 24 for all JS actions
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build-and-run:
     runs-on: ubuntu-latest
+    # This must match the name of the environment you created in GitHub Settings
+    environment: tally_event_sync 
+    
     permissions:
       contents: write
 
@@ -29,10 +31,10 @@ jobs:
         run: npm install
 
       - name: Run custom script
-        run: node scripts/tally_event_sync.js
         env:
           TALLY_API_KEY: ${{ secrets.TALLY_API_KEY }}
           NODE_ENV: production
+        run: node scripts/tally_event_sync.js
 
       - name: Commit and Push
         run: |
