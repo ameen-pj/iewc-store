@@ -9,17 +9,17 @@
     "hasDraftBlocks": false,
     "numberOfSubmissions": 1,
     "createdAt": "2026-03-20T06:26:22.000Z",
-    "updatedAt": "2026-03-21T08:20:21.000Z",
+    "updatedAt": "2026-03-21T08:34:33.000Z",
     "index": 0,
-    "isClosed": false,
+    "isClosed": true,
     "settings": {
       "language": "en",
-      "isClosed": false,
+      "isClosed": true,
       "closeMessageTitle": null,
       "closeMessageDescription": null,
-      "closeTimezone": null,
-      "closeDate": null,
-      "closeTime": null,
+      "closeTimezone": "Asia/Kolkata",
+      "closeDate": "2026-03-23",
+      "closeTime": "15:14",
       "submissionsLimit": null,
       "uniqueSubmissionKey": null,
       "redirectOnCompletion": null,
@@ -45,18 +45,7 @@
       "pageAutoJump": false,
       "saveForLater": true,
       "styles": {
-        "theme": "CUSTOM",
-        "color": {
-          "background": "#1a1917",
-          "text": "#DFDFDE",
-          "accent": "#7957FF",
-          "buttonBackground": "#7957FF",
-          "buttonText": "#FFFFFF"
-        },
-        "font": {
-          "provider": "Google",
-          "family": "Roboto"
-        }
+        "theme": "LIGHT"
       },
       "password": null,
       "submissionsDataRetentionDuration": null,
