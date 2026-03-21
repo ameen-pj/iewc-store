@@ -32,6 +32,7 @@ jobs:
         run: node scripts/tally_event_sync.js
         env:
           TALLY_API_KEY: ${{ secrets.TALLY_API_KEY }}
+          NODE_ENV: production
 
       - name: Commit and Push
         run: |
