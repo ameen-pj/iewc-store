@@ -1,4 +1,6 @@
-require('dotenv').config();
+if (!process.env.GITHUB_ACTIONS) {
+  require('dotenv').config();
+}
 const fs = require('fs/promises');
 const path = require('path');
 
