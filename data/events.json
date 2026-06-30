@@ -6,11 +6,11 @@
     "workspaceId": "mOJ247",
     "folderId": null,
     "organizationId": "mVD0RJ",
-    "status": "DRAFT",
-    "hasDraftBlocks": true,
-    "numberOfSubmissions": 0,
+    "status": "PUBLISHED",
+    "hasDraftBlocks": false,
+    "numberOfSubmissions": 6,
     "createdAt": "2026-06-29T03:23:05.000Z",
-    "updatedAt": "2026-06-29T03:32:01.000Z",
+    "updatedAt": "2026-06-29T04:12:16.000Z",
     "index": 0,
     "isClosed": false,
     "settings": {
@@ -43,12 +43,34 @@
       "hasVerifyEmailNotifications": false,
       "verifyEmailFromName": null,
       "verifyEmailSendingDomainId": null,
-      "hasProgressBar": false,
+      "hasProgressBar": true,
       "hasPartialSubmissions": false,
       "pageAutoJump": false,
       "saveForLater": true,
       "styles": {
-        "theme": "DARK"
+        "theme": "CUSTOM",
+        "color": {
+          "background": "#0F0E1C",
+          "text": "#DFDFDE",
+          "accent": "#7957FF",
+          "buttonBackground": "#7957FF",
+          "buttonText": "#FFFFFF"
+        },
+        "font": {
+          "provider": "Google",
+          "family": "Google Sans"
+        },
+        "advanced": {
+          "baseFontSize": 16,
+          "inputHeight": 36,
+          "inputHorizontalPadding": 10,
+          "inputMarginBottom": 10,
+          "inputBorderRadius": 8,
+          "inputBorderWidth": 1,
+          "buttonWidthMode": "full",
+          "inputWidthMode": "full",
+          "buttonAlignment": "center"
+        }
       },
       "password": null,
       "submissionsDataRetentionDuration": null,
@@ -67,6 +89,9 @@
         "groupType": "TEXT",
         "payload": {
           "logo": "https://storage.tally.so/27a3d5d2-7aa5-443d-aa4b-c0c67c1b8a69/logo.png",
+          "button": {
+            "label": "Submit Idea 🚀"
+          },
           "safeHTMLSchema": [
             [
               "IEDC Student Idea Hub"
@@ -76,9 +101,151 @@
         }
       },
       {
-        "uuid": "b9dd5f11-c64f-453d-8290-21f93e79b66a",
+        "uuid": "5aea573e-509d-4eb5-9bbc-9d0ead73d6a7",
+        "type": "TITLE",
+        "groupUuid": "ad3ca516-1c69-47df-bf20-9a40bbbbe43b",
+        "groupType": "TITLE",
+        "payload": {
+          "safeHTMLSchema": [
+            [
+              "Basic Details"
+            ]
+          ]
+        }
+      },
+      {
+        "uuid": "cedfe124-5a71-4d6d-83bf-c9e85979d568",
+        "type": "TITLE",
+        "groupUuid": "b5cb2e7b-02b2-43a8-be06-cd6e0d59a2d6",
+        "groupType": "QUESTION",
+        "payload": {
+          "safeHTMLSchema": [
+            [
+              "Full Name"
+            ]
+          ]
+        }
+      },
+      {
+        "uuid": "9ad5c186-1ae5-4808-a7e5-ccc221ef43f4",
+        "type": "INPUT_TEXT",
+        "groupUuid": "36c53019-8ac9-43df-952c-a96e57fe98bf",
+        "groupType": "INPUT_TEXT",
+        "payload": {
+          "isRequired": true,
+          "placeholder": ""
+        }
+      },
+      {
+        "uuid": "8d5cf1c6-52cd-447c-b34a-5013741cde35",
+        "type": "TITLE",
+        "groupUuid": "1ccb20f3-58da-49a3-b1b9-398326e2ed10",
+        "groupType": "QUESTION",
+        "payload": {
+          "safeHTMLSchema": [
+            [
+              "Email Address"
+            ]
+          ]
+        }
+      },
+      {
+        "uuid": "ed6a6446-d143-401e-92de-735983596649",
+        "type": "INPUT_EMAIL",
+        "groupUuid": "dad0523d-1945-4293-93e0-232e343298a4",
+        "groupType": "INPUT_EMAIL",
+        "payload": {
+          "isRequired": true,
+          "placeholder": ""
+        }
+      },
+      {
+        "uuid": "77e28eb9-e29c-47a5-980a-4dcbe0b1e392",
+        "type": "TITLE",
+        "groupUuid": "4c09f5ad-afde-470c-8597-2370dd253cff",
+        "groupType": "QUESTION",
+        "payload": {
+          "safeHTMLSchema": [
+            [
+              "Phone Number"
+            ]
+          ]
+        }
+      },
+      {
+        "uuid": "467edfd7-237e-4f3b-a7a5-563f17c90997",
+        "type": "INPUT_PHONE_NUMBER",
+        "groupUuid": "f533f3d8-8487-4eb9-b646-390a09cc9de1",
+        "groupType": "INPUT_PHONE_NUMBER",
+        "payload": {
+          "isRequired": true,
+          "internationalFormat": true,
+          "placeholder": ""
+        }
+      },
+      {
+        "uuid": "f116bfe4-f924-4fb0-9b8f-40aa673cb69b",
+        "type": "TITLE",
+        "groupUuid": "8367541a-bc84-4d30-9e53-cd391fe6467a",
+        "groupType": "TITLE",
+        "payload": {
+          "safeHTMLSchema": [
+            [
+              "Idea Pitch"
+            ]
+          ]
+        }
+      },
+      {
+        "uuid": "3664cb08-6317-4ab2-801e-5c81ce6c552f",
+        "type": "TITLE",
+        "groupUuid": "0989dfc4-2f64-40da-96b5-b4a8506442e9",
+        "groupType": "QUESTION",
+        "payload": {
+          "safeHTMLSchema": [
+            [
+              "Idea Title"
+            ]
+          ]
+        }
+      },
+      {
+        "uuid": "3f7613ee-9212-495f-83cf-4da962c3f208",
+        "type": "INPUT_TEXT",
+        "groupUuid": "4662747e-b9d1-4f45-8dc4-823bf4511db0",
+        "groupType": "INPUT_TEXT",
+        "payload": {
+          "isRequired": true,
+          "placeholder": ""
+        }
+      },
+      {
+        "uuid": "39f64007-b3a0-40f3-9266-3974800e524d",
+        "type": "TITLE",
+        "groupUuid": "93376ecc-f7ff-4e2d-b3f2-61338f648044",
+        "groupType": "QUESTION",
+        "payload": {
+          "safeHTMLSchema": [
+            [
+              "Describe your idea in detail"
+            ]
+          ]
+        }
+      },
+      {
+        "uuid": "03b69a5b-d848-481e-aa0a-95affd0463d4",
+        "type": "TEXTAREA",
+        "groupUuid": "1e3c4732-1c00-42f0-8873-e6a127578206",
+        "groupType": "TEXTAREA",
+        "payload": {
+          "isRequired": true,
+          "placeholder": ""
+        }
+      },
+      {
+        "uuid": "2636a76a-267b-45d6-9cc9-c5fd717464f7",
         "type": "TEXT",
-        "groupUuid": "a85f8ea4-61be-4874-b3b6-6296bc92ba09",
+        "groupUuid": "d74bb854-806b-46fe-8eef-38ca00b81f61",
         "groupType": "TEXT",
         "payload": {
           "safeHTMLSchema": []
