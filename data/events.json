@@ -83,9 +83,7 @@
     },
     "blocks": [
       {
-        "uuid": "a3160a4f-2dd3-4163-98f3-5e36dd2a8ef6",
         "type": "FORM_TITLE",
-        "groupUuid": "bf5e988f-5e35-423e-aa56-45eb95752cf7",
         "groupType": "TEXT",
         "payload": {
           "logo": "https://storage.tally.so/27a3d5d2-7aa5-443d-aa4b-c0c67c1b8a69/logo.png",
@@ -98,12 +96,12 @@
             ]
           ],
           "title": "IEDC Student Idea Hub"
-        }
+        },
+        "uuid": "a3160a4f-2dd3-4163-98f3-5e36dd2a8ef6",
+        "groupUuid": "bf5e988f-5e35-423e-aa56-45eb95752cf7"
       },
       {
-        "uuid": "5aea573e-509d-4eb5-9bbc-9d0ead73d6a7",
         "type": "TITLE",
-        "groupUuid": "ad3ca516-1c69-47df-bf20-9a40bbbbe43b",
         "groupType": "TITLE",
         "payload": {
           "safeHTMLSchema": [
@@ -111,12 +109,12 @@
               "Basic Details"
             ]
           ]
-        }
+        },
+        "uuid": "5aea573e-509d-4eb5-9bbc-9d0ead73d6a7",
+        "groupUuid": "ad3ca516-1c69-47df-bf20-9a40bbbbe43b"
       },
       {
-        "uuid": "cedfe124-5a71-4d6d-83bf-c9e85979d568",
         "type": "TITLE",
-        "groupUuid": "b5cb2e7b-02b2-43a8-be06-cd6e0d59a2d6",
         "groupType": "QUESTION",
         "payload": {
           "safeHTMLSchema": [
@@ -124,22 +122,22 @@
               "Full Name"
             ]
           ]
-        }
+        },
+        "uuid": "cedfe124-5a71-4d6d-83bf-c9e85979d568",
+        "groupUuid": "b5cb2e7b-02b2-43a8-be06-cd6e0d59a2d6"
       },
       {
-        "uuid": "9ad5c186-1ae5-4808-a7e5-ccc221ef43f4",
         "type": "INPUT_TEXT",
-        "groupUuid": "36c53019-8ac9-43df-952c-a96e57fe98bf",
         "groupType": "INPUT_TEXT",
         "payload": {
           "isRequired": true,
           "placeholder": ""
-        }
+        },
+        "uuid": "9ad5c186-1ae5-4808-a7e5-ccc221ef43f4",
+        "groupUuid": "36c53019-8ac9-43df-952c-a96e57fe98bf"
       },
       {
-        "uuid": "8d5cf1c6-52cd-447c-b34a-5013741cde35",
         "type": "TITLE",
-        "groupUuid": "1ccb20f3-58da-49a3-b1b9-398326e2ed10",
         "groupType": "QUESTION",
         "payload": {
           "safeHTMLSchema": [
@@ -147,22 +145,22 @@
               "Email Address"
             ]
           ]
-        }
+        },
+        "uuid": "8d5cf1c6-52cd-447c-b34a-5013741cde35",
+        "groupUuid": "1ccb20f3-58da-49a3-b1b9-398326e2ed10"
       },
       {
-        "uuid": "ed6a6446-d143-401e-92de-735983596649",
         "type": "INPUT_EMAIL",
-        "groupUuid": "dad0523d-1945-4293-93e0-232e343298a4",
         "groupType": "INPUT_EMAIL",
         "payload": {
           "isRequired": true,
           "placeholder": ""
-        }
+        },
+        "uuid": "ed6a6446-d143-401e-92de-735983596649",
+        "groupUuid": "dad0523d-1945-4293-93e0-232e343298a4"
       },
       {
-        "uuid": "77e28eb9-e29c-47a5-980a-4dcbe0b1e392",
         "type": "TITLE",
-        "groupUuid": "4c09f5ad-afde-470c-8597-2370dd253cff",
         "groupType": "QUESTION",
         "payload": {
           "safeHTMLSchema": [
@@ -170,23 +168,23 @@
               "Phone Number"
             ]
           ]
-        }
+        },
+        "uuid": "77e28eb9-e29c-47a5-980a-4dcbe0b1e392",
+        "groupUuid": "4c09f5ad-afde-470c-8597-2370dd253cff"
       },
       {
-        "uuid": "467edfd7-237e-4f3b-a7a5-563f17c90997",
         "type": "INPUT_PHONE_NUMBER",
-        "groupUuid": "f533f3d8-8487-4eb9-b646-390a09cc9de1",
         "groupType": "INPUT_PHONE_NUMBER",
         "payload": {
           "isRequired": true,
           "internationalFormat": true,
           "placeholder": ""
-        }
+        },
+        "uuid": "467edfd7-237e-4f3b-a7a5-563f17c90997",
+        "groupUuid": "f533f3d8-8487-4eb9-b646-390a09cc9de1"
       },
       {
-        "uuid": "f116bfe4-f924-4fb0-9b8f-40aa673cb69b",
         "type": "TITLE",
-        "groupUuid": "8367541a-bc84-4d30-9e53-cd391fe6467a",
         "groupType": "TITLE",
         "payload": {
           "safeHTMLSchema": [
@@ -194,12 +192,12 @@
               "Idea Pitch"
             ]
           ]
-        }
+        },
+        "uuid": "f116bfe4-f924-4fb0-9b8f-40aa673cb69b",
+        "groupUuid": "8367541a-bc84-4d30-9e53-cd391fe6467a"
       },
       {
-        "uuid": "3664cb08-6317-4ab2-801e-5c81ce6c552f",
         "type": "TITLE",
-        "groupUuid": "0989dfc4-2f64-40da-96b5-b4a8506442e9",
         "groupType": "QUESTION",
         "payload": {
           "safeHTMLSchema": [
@@ -207,22 +205,22 @@
               "Idea Title"
             ]
           ]
-        }
+        },
+        "uuid": "3664cb08-6317-4ab2-801e-5c81ce6c552f",
+        "groupUuid": "0989dfc4-2f64-40da-96b5-b4a8506442e9"
       },
       {
-        "uuid": "3f7613ee-9212-495f-83cf-4da962c3f208",
         "type": "INPUT_TEXT",
-        "groupUuid": "4662747e-b9d1-4f45-8dc4-823bf4511db0",
         "groupType": "INPUT_TEXT",
         "payload": {
           "isRequired": true,
           "placeholder": ""
-        }
+        },
+        "uuid": "3f7613ee-9212-495f-83cf-4da962c3f208",
+        "groupUuid": "4662747e-b9d1-4f45-8dc4-823bf4511db0"
       },
       {
-        "uuid": "39f64007-b3a0-40f3-9266-3974800e524d",
         "type": "TITLE",
-        "groupUuid": "93376ecc-f7ff-4e2d-b3f2-61338f648044",
         "groupType": "QUESTION",
         "payload": {
           "safeHTMLSchema": [
@@ -230,26 +228,28 @@
               "Describe your idea in detail"
             ]
           ]
-        }
+        },
+        "uuid": "39f64007-b3a0-40f3-9266-3974800e524d",
+        "groupUuid": "93376ecc-f7ff-4e2d-b3f2-61338f648044"
       },
       {
-        "uuid": "03b69a5b-d848-481e-aa0a-95affd0463d4",
         "type": "TEXTAREA",
-        "groupUuid": "1e3c4732-1c00-42f0-8873-e6a127578206",
         "groupType": "TEXTAREA",
         "payload": {
           "isRequired": true,
           "placeholder": ""
-        }
+        },
+        "uuid": "03b69a5b-d848-481e-aa0a-95affd0463d4",
+        "groupUuid": "1e3c4732-1c00-42f0-8873-e6a127578206"
       },
       {
-        "uuid": "2636a76a-267b-45d6-9cc9-c5fd717464f7",
         "type": "TEXT",
-        "groupUuid": "d74bb854-806b-46fe-8eef-38ca00b81f61",
         "groupType": "TEXT",
         "payload": {
           "safeHTMLSchema": []
-        }
+        },
+        "uuid": "2636a76a-267b-45d6-9cc9-c5fd717464f7",
+        "groupUuid": "d74bb854-806b-46fe-8eef-38ca00b81f61"
       }
     ]
   },
@@ -326,9 +326,7 @@
     },
     "blocks": [
       {
-        "uuid": "da462b14-2e58-4648-bfe0-2ef17dad06d7",
         "type": "FORM_TITLE",
-        "groupUuid": "17a4fd70-5e0b-418c-a61d-b7ed50e6e05e",
         "groupType": "TEXT",
         "payload": {
           "logo": "https://storage.tally.so/75c7bd3d-445f-4f1e-aa69-0737bdc90a98/iedc_logo.png",
@@ -339,12 +337,12 @@
             ]
           ],
           "title": "IEDC Hackathon Registration🚀"
-        }
+        },
+        "uuid": "da462b14-2e58-4648-bfe0-2ef17dad06d7",
+        "groupUuid": "17a4fd70-5e0b-418c-a61d-b7ed50e6e05e"
       },
       {
-        "uuid": "925bce14-9931-4bf3-b661-676b289720dd",
         "type": "TITLE",
-        "groupUuid": "5822ebc7-3571-4b26-95fc-eb80b26fb4c0",
         "groupType": "QUESTION",
         "payload": {
           "safeHTMLSchema": [
@@ -352,22 +350,22 @@
               "Enter Name"
             ]
           ]
-        }
+        },
+        "uuid": "925bce14-9931-4bf3-b661-676b289720dd",
+        "groupUuid": "5822ebc7-3571-4b26-95fc-eb80b26fb4c0"
       },
       {
-        "uuid": "9d834249-3d6a-4c0c-8ca3-0690d325534d",
         "type": "INPUT_TEXT",
-        "groupUuid": "ec6f2f90-b073-4f29-830c-b6f4a2b9f99e",
         "groupType": "INPUT_TEXT",
         "payload": {
           "isRequired": true,
           "placeholder": ""
-        }
+        },
+        "uuid": "9d834249-3d6a-4c0c-8ca3-0690d325534d",
+        "groupUuid": "ec6f2f90-b073-4f29-830c-b6f4a2b9f99e"
       },
       {
-        "uuid": "f24cf2a1-d2a8-453e-ad6c-759d8853d744",
         "type": "TITLE",
-        "groupUuid": "07cfad3c-a141-4291-a6e6-f63e901140f6",
         "groupType": "QUESTION",
         "payload": {
           "safeHTMLSchema": [
@@ -375,22 +373,22 @@
               "Email"
             ]
           ]
-        }
+        },
+        "uuid": "f24cf2a1-d2a8-453e-ad6c-759d8853d744",
+        "groupUuid": "07cfad3c-a141-4291-a6e6-f63e901140f6"
       },
       {
-        "uuid": "4d404b91-ee1c-4416-9623-11dd7cfd7428",
         "type": "INPUT_EMAIL",
-        "groupUuid": "5b1524c3-e0be-4008-8131-b4579e7930df",
         "groupType": "INPUT_EMAIL",
         "payload": {
           "isRequired": true,
           "placeholder": ""
-        }
+        },
+        "uuid": "4d404b91-ee1c-4416-9623-11dd7cfd7428",
+        "groupUuid": "5b1524c3-e0be-4008-8131-b4579e7930df"
       },
       {
-        "uuid": "a8e1ce3c-22ac-4565-a90a-0b7a3e3f53c2",
         "type": "TITLE",
-        "groupUuid": "dd4a7b28-3073-460e-a759-494eca660fde",
         "groupType": "QUESTION",
         "payload": {
           "safeHTMLSchema": [
@@ -398,26 +396,28 @@
               "Year"
             ]
           ]
-        }
+        },
+        "uuid": "a8e1ce3c-22ac-4565-a90a-0b7a3e3f53c2",
+        "groupUuid": "dd4a7b28-3073-460e-a759-494eca660fde"
       },
       {
-        "uuid": "2b1d300f-8231-47d4-9b40-539467514a9e",
         "type": "INPUT_NUMBER",
-        "groupUuid": "fe9a3f75-c139-46ce-ba16-697ac48eabf2",
         "groupType": "INPUT_NUMBER",
         "payload": {
           "isRequired": true,
           "placeholder": "Enter Year of Study"
-        }
+        },
+        "uuid": "2b1d300f-8231-47d4-9b40-539467514a9e",
+        "groupUuid": "fe9a3f75-c139-46ce-ba16-697ac48eabf2"
       },
       {
-        "uuid": "6f78496f-6373-4389-a166-dd9463306f45",
         "type": "TEXT",
-        "groupUuid": "2b1be254-7e3c-4fcf-94c1-24958f32351d",
         "groupType": "TEXT",
         "payload": {
           "safeHTMLSchema": []
-        }
+        },
+        "uuid": "6f78496f-6373-4389-a166-dd9463306f45",
+        "groupUuid": "2b1be254-7e3c-4fcf-94c1-24958f32351d"
       }
     ]
   }
